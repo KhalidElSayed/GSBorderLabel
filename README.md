@@ -10,6 +10,10 @@ GSBorderLabel is a custom UILabel subclass, which allows you to create labels wi
 
 It works with **any font** and **any font size**.
 
+You can easily create labels like this:
+
+![](https://raw.github.com/JJSaccolo/GSBorderLabel/master/Screenshot/example.png)
+
 
 Installation
 ------------
