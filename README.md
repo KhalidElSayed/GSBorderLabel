@@ -17,7 +17,7 @@ You can easily create labels like this:
 
 Installation
 ------------
-Just copy the GSBorderLabel (.h and .m) into your application.
+Just copy the GSBorderLabel class (.h and .m) into your application.
 
 
 Usage
