@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBE67F4B167E82CA008D323E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE67F4A167E82CA008D323E /* UIKit.framework */; };
+		FBE67F4D167E82CA008D323E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE67F4C167E82CA008D323E /* Foundation.framework */; };
+		FBE67F4F167E82CA008D323E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE67F4E167E82CA008D323E /* CoreGraphics.framework */; };
+		FBE67F55167E82CA008D323E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBE67F53167E82CA008D323E /* InfoPlist.strings */; };
+		FBE67F57167E82CA008D323E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE67F56167E82CA008D323E /* main.m */; };
+		FBE67F5B167E82CA008D323E /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE67F5A167E82CA008D323E /* GSAppDelegate.m */; };
+		FBE67F5D167E82CA008D323E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE67F5C167E82CA008D323E /* Default.png */; };
+		FBE67F5F167E82CA008D323E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE67F5E167E82CA008D323E /* Default@2x.png */; };
+		FBE67F61167E82CA008D323E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE67F60167E82CA008D323E /* Default-568h@2x.png */; };
+		FBE67F64167E82CA008D323E /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE67F63167E82CA008D323E /* GSViewController.m */; };
+		FBE67F67167E82CA008D323E /* GSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE67F65167E82CA008D323E /* GSViewController.xib */; };
+		FBE67F7C167E834C008D323E /* GSBorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE67F7B167E834C008D323E /* GSBorderLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBE67F46167E82CA008D323E /* GSBorderLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSBorderLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE67F4A167E82CA008D323E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBE67F4C167E82CA008D323E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBE67F4E167E82CA008D323E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBE67F52167E82CA008D323E /* GSBorderLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSBorderLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		FBE67F54167E82CA008D323E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBE67F56167E82CA008D323E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBE67F58167E82CA008D323E /* GSBorderLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSBorderLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FBE67F59167E82CA008D323E /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		FBE67F5A167E82CA008D323E /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		FBE67F5C167E82CA008D323E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBE67F5E167E82CA008D323E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBE67F60167E82CA008D323E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBE67F62167E82CA008D323E /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		FBE67F63167E82CA008D323E /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		FBE67F66167E82CA008D323E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GSViewController.xib; sourceTree = "<group>"; };
+		FBE67F7A167E834C008D323E /* GSBorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSBorderLabel.h; path = ../GSBorderLabel.h; sourceTree = "<group>"; };
+		FBE67F7B167E834C008D323E /* GSBorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSBorderLabel.m; path = ../GSBorderLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE67F43167E82CA008D323E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE67F4B167E82CA008D323E /* UIKit.framework in Frameworks */,
+				FBE67F4D167E82CA008D323E /* Foundation.framework in Frameworks */,
+				FBE67F4F167E82CA008D323E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE67F3B167E82CA008D323E = {
+			isa = PBXGroup;
+			children = (
+				FBE67F75167E82EF008D323E /* GSBorderLabel */,
+				FBE67F50167E82CA008D323E /* GSBorderLabelDemo */,
+				FBE67F49167E82CA008D323E /* Frameworks */,
+				FBE67F47167E82CA008D323E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE67F47167E82CA008D323E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE67F46167E82CA008D323E /* GSBorderLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE67F49167E82CA008D323E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE67F4A167E82CA008D323E /* UIKit.framework */,
+				FBE67F4C167E82CA008D323E /* Foundation.framework */,
+				FBE67F4E167E82CA008D323E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE67F50167E82CA008D323E /* GSBorderLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBE67F59167E82CA008D323E /* GSAppDelegate.h */,
+				FBE67F5A167E82CA008D323E /* GSAppDelegate.m */,
+				FBE67F62167E82CA008D323E /* GSViewController.h */,
+				FBE67F63167E82CA008D323E /* GSViewController.m */,
+				FBE67F65167E82CA008D323E /* GSViewController.xib */,
+				FBE67F51167E82CA008D323E /* Supporting Files */,
+			);
+			path = GSBorderLabelDemo;
+			sourceTree = "<group>";
+		};
+		FBE67F51167E82CA008D323E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE67F52167E82CA008D323E /* GSBorderLabelDemo-Info.plist */,
+				FBE67F53167E82CA008D323E /* InfoPlist.strings */,
+				FBE67F56167E82CA008D323E /* main.m */,
+				FBE67F58167E82CA008D323E /* GSBorderLabelDemo-Prefix.pch */,
+				FBE67F5C167E82CA008D323E /* Default.png */,
+				FBE67F5E167E82CA008D323E /* Default@2x.png */,
+				FBE67F60167E82CA008D323E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBE67F75167E82EF008D323E /* GSBorderLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FBE67F7A167E834C008D323E /* GSBorderLabel.h */,
+				FBE67F7B167E834C008D323E /* GSBorderLabel.m */,
+			);
+			name = GSBorderLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE67F45167E82CA008D323E /* GSBorderLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE67F6A167E82CA008D323E /* Build configuration list for PBXNativeTarget "GSBorderLabelDemo" */;
+			buildPhases = (
+				FBE67F42167E82CA008D323E /* Sources */,
+				FBE67F43167E82CA008D323E /* Frameworks */,
+				FBE67F44167E82CA008D323E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSBorderLabelDemo;
+			productName = GSBorderLabelDemo;
+			productReference = FBE67F46167E82CA008D323E /* GSBorderLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE67F3D167E82CA008D323E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Giacomo Saccardo";
+			};
+			buildConfigurationList = FBE67F40167E82CA008D323E /* Build configuration list for PBXProject "GSBorderLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBE67F3B167E82CA008D323E;
+			productRefGroup = FBE67F47167E82CA008D323E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE67F45167E82CA008D323E /* GSBorderLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE67F44167E82CA008D323E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE67F55167E82CA008D323E /* InfoPlist.strings in Resources */,
+				FBE67F5D167E82CA008D323E /* Default.png in Resources */,
+				FBE67F5F167E82CA008D323E /* Default@2x.png in Resources */,
+				FBE67F61167E82CA008D323E /* Default-568h@2x.png in Resources */,
+				FBE67F67167E82CA008D323E /* GSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE67F42167E82CA008D323E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE67F57167E82CA008D323E /* main.m in Sources */,
+				FBE67F5B167E82CA008D323E /* GSAppDelegate.m in Sources */,
+				FBE67F64167E82CA008D323E /* GSViewController.m in Sources */,
+				FBE67F7C167E834C008D323E /* GSBorderLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBE67F53167E82CA008D323E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE67F54167E82CA008D323E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBE67F65167E82CA008D323E /* GSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE67F66167E82CA008D323E /* en */,
+			);
+			name = GSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE67F68167E82CA008D323E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBE67F69167E82CA008D323E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE67F6B167E82CA008D323E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSBorderLabelDemo/GSBorderLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "GSBorderLabelDemo/GSBorderLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBE67F6C167E82CA008D323E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSBorderLabelDemo/GSBorderLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "GSBorderLabelDemo/GSBorderLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE67F40167E82CA008D323E /* Build configuration list for PBXProject "GSBorderLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE67F68167E82CA008D323E /* Debug */,
+				FBE67F69167E82CA008D323E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE67F6A167E82CA008D323E /* Build configuration list for PBXNativeTarget "GSBorderLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE67F6B167E82CA008D323E /* Debug */,
+				FBE67F6C167E82CA008D323E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE67F3D167E82CA008D323E /* Project object */;
+}
